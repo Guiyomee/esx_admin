@@ -12,3 +12,6 @@ FXServer ESX Admin
 ```
 start esx_admin
 ```
+
+
+Thanks Solaris for Brinks whith PED :D 
