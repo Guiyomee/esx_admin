@@ -4,8 +4,8 @@ Config.Minutes                               = 30
 
 
 Config.SteamID = {
-	"steam:11000010c28fb52",
-	"steam:1100001192dc4ad"
+	"steam:110000000000000",
+	"steam:110000000000000"
 }
 
 Config.Peds ={ 
