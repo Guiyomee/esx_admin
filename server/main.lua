@@ -2,9 +2,6 @@ ESX                 = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-TriggerEvent('esx_phone:registerNumber', 'accountant', _('accountant_customer'), false, false)
-TriggerEvent('esx_society:registerSociety', 'accountant', 'exepert comptable', 'society_accountant', 'society_accountant', 'society_accountant', {type = 'private'})
-
 ESX.RegisterServerCallback("esx_admin:getSteamId", function(source, cb)
     local _source = source
     cb(GetPlayerIdentifiers(_source)[1])
