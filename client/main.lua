@@ -93,7 +93,7 @@ function OpenAccountantActionsMenu()
 					ESX.UI.Menu.Open(
 						'default', GetCurrentResourceName(), 'accountant_actions',
 						{
-							title    = _U('CreateAlert')
+							title    = _U('CreateAlert'),
 							elements = elements
 						},
 						function(data, menu)
